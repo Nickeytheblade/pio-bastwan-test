@@ -1,0 +1,53 @@
+{
+    "build": {
+        "arduino": {
+            "ldscript": "8KB_BOOTLOADER/flash_256KB.ld"
+        },
+        "core": "arduino",
+        "cpu": "cortex-m0plus",
+        "extra_flags": "-D__SAMR34J18B__ -DARM_MATH_CM0PLUS",
+        "f_cpu": "48000000L",
+        "hwids": [
+            [
+                "0x04D8",
+                "0xEB68"
+            ],
+            [
+                "0x04D8",
+                "0xEB68"
+            ]
+        ],
+        "mcu": "samr34j18b",
+        "usb_product": "BastWAN",
+        "variant": "bastwan"
+    },
+    "debug": {
+        "jlink_device": "ATSAMR34J18",
+        "openocd_chipname": "at91samd21g18",
+        "openocd_target": "SAML21J18B",
+        "svd_path": "ATSAMD21G18A.svd"
+    },
+    "frameworks": [
+        "arduino"
+    ],
+    "name": "BastWAN",
+    "upload": {
+        "disable_flushing": true,
+        "maximum_ram_size": 40960,
+        "maximum_size": 253952,
+        "native_usb": true,
+        "offset_address": "0x2000",
+        "protocol": "sam-ba",
+        "protocols": [
+            "sam-ba",
+            "blackmagic",
+            "jlink",
+            "atmel-ice"
+        ],
+        "require_upload_port": true,
+        "use_1200bps_touch": true,
+        "wait_for_upload_port": true
+    },
+    "url": "https://www.sparkfun.com/products/14812",
+    "vendor": "SparkFun"
+}
