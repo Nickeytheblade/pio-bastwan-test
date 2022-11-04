@@ -1,4 +1,4 @@
-## Helium Messenger Project 
+## Helium Messenger Plan 
 
 Code for OTAA Helum - TTN & LoRaWan, Class C. & A.
 
