@@ -1,4 +1,4 @@
-## BastWan for keyboard featherwing Helium project 
+## Helium Messenger Project 
 
 Code for OTAA Helum - TTN & LoRaWan, Class C. & A.
 
